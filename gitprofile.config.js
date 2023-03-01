@@ -2,30 +2,30 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'youplala', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['youplala.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'eliebrosset',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'eliebrosset',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://portfolio.brosset.li',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'eliebrosset@gmail.com',
   },
   resume: {
     fileUrl:
@@ -49,14 +49,14 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'Humanitics.ai',
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
+      company: 'Humanitics.ai',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
@@ -105,7 +105,7 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
+    source: 'medium', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
