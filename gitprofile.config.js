@@ -113,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    // defaultTheme: 'default',
+    // defaultTheme: '',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -159,7 +159,7 @@ const config = {
       'winter',
       'procyon',
     ],
-
+    /*
     // Custom theme
     customTheme: {
       primary: '#fc055b',
@@ -169,7 +169,7 @@ const config = {
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
-    },
+    }, */
   },
 
   // Optional Footer. Supports plain text or HTML.
