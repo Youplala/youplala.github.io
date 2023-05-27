@@ -23,7 +23,7 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://portfolio.brosset.li',
+    website: 'portfolio.brosset.li',
     phone: '',
     email: 'eliebrosset@gmail.com',
   },
@@ -113,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    // defaultTheme: 'winter',
+    // defaultTheme: 'default',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
