@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://rxresu.me/eliebrosset/ml-engineer', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/Youplala/youplala.github.io/blob/main/Resume.pdf?raw=True', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -45,9 +45,9 @@ const config = {
   experiences: [
     {
       company: 'Humanitics.ai',
-      position: 'Junior ML Engineer Apprentice',
+      position: 'Machine Learning Engineer',
       from: 'September 2022',
-      to: 'Present',
+      to: 'September 2023',
       companyLink: 'https://humanitics.ai',
     },
     {
@@ -113,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'default',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
